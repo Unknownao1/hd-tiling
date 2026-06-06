@@ -7,19 +7,19 @@ const P=[
   {l:'Fox Lane, Southgate',t:'Rear Extension'},
   {l:'Grove Park, Haringey',t:'Rear Extension'},
   {l:'New Barnes, Saint Albans',t:'Double Storey Extension'},
-  {l:'Ramsey Close, Brookmans Park',t:'Orangery'},
+  {l:'Ramsey Close, Brookmans Park',t:Orangery'},
   {l:'Wood Hall, Hertfordshire',t:'Grade II Listed Building Renovation'},
   ]
 
 const IMGS=[
-  '/images/p1.jpg','/images/p2.jpg','/images/p3.jpg',
+    '/images/p1.jpg','/images/p8-team.jpg','/images/p3.jpg',
   '/images/p4.jpg','/images/p5.jpg','/images/p6.jpg',
   '/images/p7.jpg','/images/p8.jpg',
   ]
 
 const SVC=[
   {img:'/images/p3.jpg',title:'Loft Conversions',desc:'Transform unused loft space into stunning living areas. We handle planning, structural work and stunning finishes from start to completion.'},
-  {img:'/images/p1.jpg',title:'House Extensions',desc:'Rear, side and double storey extensions designed and built to the highest standard. We manage planning, design and full construction.'},
+  {img:'/images/p8-team.jpg',title:'Home Renovations',desc:'Complete home transformations from concept to completion. Our in-house design team works with you to match your vision, needs and budget.'},
   {img:'/images/p2.jpg',title:'Home Renovations',desc:'Complete home transformations from concept to completion. Our in-house design team works with you to match your vision, needs and budget.'},
   ]
 
