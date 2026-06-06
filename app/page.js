@@ -156,4 +156,4 @@ export default function Home(){return(<>
 <a href="#contact">Contact</a>
   </div>
   </footer>
-  </>)}}
+  </>)}
