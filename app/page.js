@@ -1,6 +1,6 @@
 'use client'
 import {useState,useEffect} from 'react'
-const IMGS=['/images/p1.jpg','/images/h1.jpg','/images/p3.jpg','/images/p4.jpg','/images/p5.jpg','/images/p6.jpg','/images/p7.jpg','/images/p8.jpg']
+const IMGS=['/images/p1.jpg','/images/p8-team.jpg','/images/p3.jpg','/images/p4.jpg','/images/p5.jpg','/images/p6.jpg','/images/p7.jpg','/images/p8.jpg']
 const PROJECTS=[
   {title:'Borough Way, Potters Bar',type:'Extension & Complete Refurbishment'},
   {title:'Ramsey Close, Brookmans Park',type:'Orangery'},
@@ -11,12 +11,12 @@ const PROJECTS=[
   {title:'Grove Park, Haringey',type:'Rear Extension'},
   {title:'New Barnes, Saint Albans',type:'Double Storey Extension'},
   ]
-const HERO_IMGS_LEFT=['/images/p1.jpg','/images/p3.jpg','/images/p5.jpg','/images/h1.jpg','/images/p7.jpg']
-const HERO_IMGS_RIGHT=['/images/p4.jpg','/images/p6.jpg','/images/p8.jpg','/images/p2.jpg','/images/p1.jpg']
+const HERO_IMGS_LEFT=['/images/p1.jpg','/images/p3.jpg','/images/p5.jpg','/images/p7.jpg','/images/p8-team.jpg']
+const HERO_IMGS_RIGHT=['/images/p4.jpg','/images/p6.jpg','/images/p8.jpg','/images/p3.jpg','/images/p5.jpg']
 const SERVICES=[
   {img:'/images/p3.jpg',title:'Extensions & Conversions',desc:'Rear, side and double storey extensions plus loft conversions designed and built to the highest standard. From planning to final finish.'},
   {img:'/images/p1.jpg',title:'Renovations',desc:'Complete home transformations from concept to completion. Our team works with you to match your vision, budget and timeline.'},
-  {img:'/images/h1.jpg',title:'New Builds & Listed Buildings',desc:'New build homes and sensitive Grade II listed building renovations — expertly managed by James Boulton and his team.'},
+  {img:'/images/p8-team.jpg',title:'New Builds & Listed Buildings',desc:'New build homes and sensitive Grade II listed building renovations — expertly managed by James Boulton and his team.'},
   ]
 const WHY=[
   {h:'Quality Comes First',p:'JMB Design and Build was founded on the principle that quality should never be compromised. Every project receives the same meticulous attention to detail.'},
